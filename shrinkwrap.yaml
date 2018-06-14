@@ -1,0 +1,49 @@
+dependencies:
+  node-overwatch-league: 0.1.1
+packages:
+  /lodash.sortby/4.7.0:
+    dev: false
+    resolution:
+      integrity: sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
+  /node-fetch/2.1.2:
+    dev: false
+    engines:
+      node: 4.x || >=6.0.0
+    resolution:
+      integrity: sha1-q4hOjn5X44qUR1POxwb3iNF2i7U=
+  /node-overwatch-league/0.1.1:
+    dependencies:
+      node-fetch: 2.1.2
+      whatwg-url: 6.5.0
+    dev: false
+    resolution:
+      integrity: sha1-7pxGni3f0cnXDiMp6zgla533YLk=
+  /punycode/2.1.1:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+  /tr46/1.0.1:
+    dependencies:
+      punycode: 2.1.1
+    dev: false
+    resolution:
+      integrity: sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=
+  /webidl-conversions/4.0.2:
+    dev: false
+    resolution:
+      integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
+  /whatwg-url/6.5.0:
+    dependencies:
+      lodash.sortby: 4.7.0
+      tr46: 1.0.1
+      webidl-conversions: 4.0.2
+    dev: false
+    resolution:
+      integrity: sha512-rhRZRqx/TLJQWUpQ6bmrt2UV4f0HCQ463yQuONJqC6fO2VoEb1pTYddbe59SkYq87aoM5A3bdhMZiUiVws+fzQ==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 4
+shrinkwrapVersion: 3
+specifiers:
+  node-overwatch-league: ^0.1.1

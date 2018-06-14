@@ -1,0 +1,22 @@
+{
+  "name": "owl-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkap/owl-discord-bot.git"
+  },
+  "author": "jae kaplan <me@jkap.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkap/owl-discord-bot/issues"
+  },
+  "homepage": "https://github.com/jkap/owl-discord-bot#readme",
+  "dependencies": {
+    "node-overwatch-league": "^0.1.1"
+  }
+}
